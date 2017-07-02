@@ -63,7 +63,7 @@ header {
 .post-card .post-shim {
   background-color: rgba(0, 0, 0, 0);
   transition: 500ms ease all;
-  width: 100%;
+  width: calc(100% - 2em);
   height: 100%;
   padding: 0 1em;
 }
@@ -108,8 +108,8 @@ footer {
 @media screen and (min-width:500px) {
 
   /* Post Styles */
-  #recient-posts {
-    display: grid;
+  #recent-posts {
+    max-width: 1000px;
   }
 
 
