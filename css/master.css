@@ -1,0 +1,63 @@
+/* Fonts */
+
+/* Arvo */
+@import url('https://fonts.googleapis.com/css?family=Arvo:700i');
+
+/* Core Body Styles */
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+  display: flex;
+  width: auto; height: 48px;
+  background-color: #3333ff;
+}
+nav a {
+  display: inline-block;
+  flex: auto;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px;
+  color: #ffffff;
+}
+ nav a:hover {
+  background-color: #0000ff;
+}
+
+/* Header Styles */
+header {
+  display: block;
+  position: relative;
+  padding: 1em;
+  background-color: #1212ff;
+  font-family: 'Arvo', serif;
+}
+
+/* Recent Posts Label */
+#post-label {
+  display: block;
+  margin: 1em;
+}
+
+/* Post Styles */
+.post-card {
+  padding: 0 1em;
+  margin-top: 1em;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+.post-card h2 {
+  position: ;
+  display: block;
+  width: auto; height: auto;
+  bottom: 0;
+}
