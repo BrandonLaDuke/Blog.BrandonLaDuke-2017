@@ -53,11 +53,20 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 250px;
+  height: 265px;
+  position: relative;
 }
 .post-card h2 {
-  position: ;
+  position: absolute;
   display: block;
-  width: auto; height: auto;
-  bottom: 0;
+  width: calc(100% - 2em); /* Accounting for the 2em of padding. */
+  bottom: 0; left: 0;
+  padding: 1.5em 1em 1em 1em;
+  margin: 0;
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+  text-shadow: .2em .2em .2em #000000;
+  letter-spacing: .1em;
+}
+.show-excerpt {
+  
 }
