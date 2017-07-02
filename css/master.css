@@ -68,5 +68,13 @@ header {
   letter-spacing: .1em;
 }
 .show-excerpt {
-  
+  color: blue;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: black;
+  color: #ffffff;
 }
