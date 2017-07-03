@@ -101,40 +101,69 @@ footer {
   color: #ffffff;
 }
 
-/*****************************
-  Next Screen Size Styles
-*****************************/
-
-@media screen and (min-width:500px) {
-
-  /* Post Styles */
-  #recent-posts {
-    max-width: 1000px;
-  }
-
-
-}
-
-
 
 /*****************************
   JS States
 *****************************/
 
-.show-excerpt {
-  color: #ffffff;
-  padding: 0;
+@media screen and (max-width:699px) {
+  .show-excerpt {
+    color: #ffffff;
+    padding: 0;
+  }
+  .show-excerpt .post-shim {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .show-excerpt p {
+   width: calc(100% - 2em);
+   opacity: 1;
+  }
+  .show-excerpt h2 {
+    opacity: 0;
+  }
+  .show-excerpt h3 {
+    opacity: 1;
+  }
 }
-.show-excerpt .post-shim {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.show-excerpt p {
- width: calc(100% - 2em);
- opacity: 1;
-}
-.show-excerpt h2 {
-  opacity: 0;
-}
-.show-excerpt h3 {
-  opacity: 1;
+
+
+
+/*****************************
+  Next Screen Size Styles
+*****************************/
+
+@media screen and (min-width:700px) {
+
+  /* Post Styles */
+  #recent-posts {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .post-card {
+    display: flex;
+    height: 300px;
+  }
+  .post-card .post-title {
+    display: none;
+  }
+  .post-card .post-img {
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+
+  }
+  .post-card .post-shim {
+    background-color: #000000;
+    opacity: 1;
+  }
+  .post-card .post-shim h3 {
+    font-size: 1.8em;
+  }
+  .post-card .post-shim h3, .post-card .post-shim p {
+    opacity: 1;
+  }
+
+
+
+
 }
