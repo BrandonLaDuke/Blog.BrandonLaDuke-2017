@@ -223,6 +223,11 @@ footer {
   margin: 1em;
 }
 
+.post-content img {
+  width: 100%; height: auto;
+  padding: .5em 0;
+}
+
 @media screen and (min-width:700px) {
   .post-image {
     height: calc(75vh - 48px);
