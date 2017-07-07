@@ -13,14 +13,6 @@
     <div class="post-body">
       <div class="post-content">
         <?php the_content() ?>
-        <div class="post-end-ad">
-          <!-- Blog.BrandonLaDuke -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-8458877549325827"
-               data-ad-slot="2994664598"
-               data-ad-format="auto"></ins>
-        </div>
         <div id="disqus_thread"></div>
         <script>
 
@@ -45,12 +37,7 @@
       </div>
       <div class="post-ads">
 
-        <!-- Blog.BrandonLaDuke -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-8458877549325827"
-             data-ad-slot="2994664598"
-             data-ad-format="auto"></ins>
+        
 
       </div>
     </div>

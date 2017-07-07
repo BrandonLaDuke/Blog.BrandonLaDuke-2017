@@ -227,6 +227,12 @@ footer {
   width: 100%; height: auto;
   padding: .5em 0;
 }
+.wp-caption-text {
+  background-color: #7f919e;
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+}
 
 @media screen and (min-width:700px) {
   .post-image {
